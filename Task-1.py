@@ -4,6 +4,5 @@
 
 import math
 
-d = float(input("Введите точность расчета: "))
-d_len = len(str(d).split('.')[1])
-print(round(math.pi, d_len))
+d = int(input("Введите точность расчета: "))
+print(round(math.pi, d))
