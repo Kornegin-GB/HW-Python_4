@@ -2,3 +2,6 @@
 
 lst = [1, 2, 3, 3, 4, 2, 5]
 print(set(lst))
+
+res = [i for i in lst if lst.count(i) == 1]
+print(res)
